@@ -1,0 +1,130 @@
+body, nav, ul, li {
+    margin: 0;
+    padding: 0;
+    font: 18px 'Roboto', sans-serif;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #fff;
+}
+
+.wrapper {
+    margin: 0 auto;
+    max-width: 950px;
+    height: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+header {
+    width: 100%;
+    height: 60px;
+    box-shadow: rgba(0, 0, 0, 0.09) 0px 1px 3px 0px;
+}
+
+nav {
+    height: 100%;
+}
+
+nav ul {
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+}
+
+nav ul li {
+    padding: 15px;
+}
+
+.DEV-content {
+    display: none;
+    margin-left: 17vw;
+    margin-top: 7vh;
+    width: 66vw;
+    height: 86vh;
+    background-color: rgba(230, 230, 230, .9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px 0px;
+}
+
+.FAQ-content {
+    display: none;
+    margin-left: 17vw;
+    margin-top: 7vh;
+    width: 66vw;
+    height: 86vh;
+    background-color: rgba(230, 230, 230, .9);
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 3px 0px;
+}
+
+.FAQ-question {
+    display: block;
+    padding-bottom: 10px;
+}
+
+.FAQ-answer {
+    padding-left: 20px;
+}
+
+.menu-right-panel {
+    display: flex;
+    justify-content: space-between;
+    margin: 70px 29px 0 0;
+}
+
+main {
+    text-align: center;
+    height: calc(100vh - 110px);
+    width: 100%;
+}
+
+main .description {
+    padding-top: 2px;
+    display: block;
+    font-size: 13px;
+}
+
+main form {
+    margin: 10px;
+    padding: 20px;
+    text-align: left;
+    box-shadow: rgba(0, 0, 0, 0.5) 1px 1px 1px 1px;
+}
+main form label {
+    padding-bottom: 10px;
+    width: 100%;
+    display: inline-block;
+}
+
+.create_bot {
+    margin-top: 10px;
+    padding: 12px 30px;
+    background-color: #000;
+    color: #eee;
+    border-radius: 30px;
+}
+
+footer {
+    color: #aaa;
+    width: 100%;
+    height: 40px;
+    background: #eee;
+}
+
+footer .footer_copy {
+    height: 100%;
+    display: flex;
+    align-items: center;
+}
